@@ -131,8 +131,7 @@ public class UpdatesActivity extends UpdatesListActivity {
         }
 
         TextView headerTitle = (TextView) findViewById(R.id.header_title);
-        headerTitle.setText(getString(R.string.header_title_text,
-                BuildInfoUtils.getBuildVersion()));
+        headerTitle.setText(getString(R.string.display_name));
 
         updateLastCheckedString();
 
